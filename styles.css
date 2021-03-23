@@ -1,0 +1,70 @@
+
+body{
+  background-color: rgb(61, 61, 61);
+  font-family: 'Handlee', cursive;
+
+}
+
+.box{
+  display: flex; /* or inline-flex */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+    
+    
+  }
+  .container{
+    display: flex; /* or inline-flex */
+    background-color: white;
+    height: 23em;
+    width: 30em;
+    flex-direction: column;
+   
+  }
+
+
+.header{
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.content{
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: space-evenly;
+}
+.footer{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+h1{
+  font-size: 2.5rem;
+}
+img{
+  height: 70px;
+  width: 60px;
+}
+p{
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.sinborde {
+  border: 0px;
+  border-bottom: 1px solid black;
+  width: 230px;
+  font-family: 'Handlee', cursive;
+  font-size: 18px;
+  padding-top: 15px;
+}
+.footer input[type=submit]{
+  font-family: 'Handlee', cursive;
+  font-size: 1em;
+}
+
